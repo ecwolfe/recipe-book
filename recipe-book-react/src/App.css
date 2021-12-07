@@ -1,0 +1,125 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #282c34;
+}
+
+body button {
+  border: white;
+  border-width: 2.5px;
+  border-style: solid;
+  color: white;
+  background-color: rgb(19, 20, 20);
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.center-div {
+    color: white;
+    width: 1000px;
+    margin: auto;
+}
+
+.recipes-list {
+  position: fixed;
+  left: 30%;
+  width: 300px;
+  height: 700px;
+  border: white;
+  border-width: 2.5px;
+  border-style: solid;
+  margin: 10px;
+}
+
+.ingredients-list {
+  position: fixed;
+  right: 30%;
+  width: 300px;
+  height: 700px;
+  border: white;
+  border-width: 2.5px;
+  border-style: solid;
+}
+
+.add-item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;;
+  padding-bottom: 15px;
+}
+
+.recipe-item {
+  float: left;
+  width: 100%;
+  border: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+.recipe-item:hover {
+  float: left;
+  width: 100%;
+  border: white;
+  font-size: 14pt;
+  border-width: 1px;
+  border-style: solid; 
+}
+.recipe-item:focus {
+  float: left;
+  width: 100%;
+  font-weight: 200;
+  font-size: 14pt;
+  border-width: 1px;
+  border-style: solid; 
+}
+
+.ingredient-item {
+  float: left;
+  width: 100%;
+  border: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px 0px 10px 0px;
+}
+
+.btn-item {
+  float: right;
+  color: white;
+  background-color: rgb(19, 20, 20);
+}
+
+.hidden
+{
+  display: none;
+}
+
+.red {
+  color: red;
+}
+
+.clickText {
+  cursor: pointer;
+}
+
+.logout {
+  float: right;
+  padding: 10px;
+  color: white;
+}
